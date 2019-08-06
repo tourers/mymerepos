@@ -10,6 +10,14 @@
         <EntryItem Caption="待办事宜" FormKey="ToDoList" Key="ToDoList" Type="Form"/>
         <EntryItem Caption="代理设置" FormKey="Delegate" Key="NewItem" Type="Form"/>
     </Entry>
-    <Entry Caption="我的门户" Key="MyPortal"/>
-    <Entry Caption="配置管理" Key="ConfigSetup"/>
+    <Entry Caption="配置管理" Key="ConfigSetup">
+        <Entry Caption="基础信息" Key="BasicInfo">
+            <EntryItem Caption="人员信息" FormKey="CHCS_Employee" Key="EmployeeInfo" Media="WEB,PC,IOS,ANDROID," Type="Form"/>
+            <EntryItem Caption="部门信息" FormKey="CHCS_Department" Key="Department" Media="WEB,PC,IOS,ANDROID," Type="Form"/>
+            <EntryItem Caption="国家地区" FormKey="V_Country" Key="Country" Media="WEB,PC,IOS,ANDROID," Type="Form"/>
+        </Entry>
+    </Entry>
+    <Entry Caption="我的门户" Key="MyPortal" Visible="false"/>
+    <Entry Caption="报关管理" Key="CustomsDeclaration" Visible="false"/>
+    <Entry Caption="工具管理" Key="Tools" Visible="false"/>
 </Entry>

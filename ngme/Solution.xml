@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Solution Caption="ngmro" Key="ngme">
+<Solution Caption="Test" Key="ngme">
     <ProjectCollection>
-        <Project Caption="参考示例" Key="Examples"/>
         <Project Caption="公共配置" Key="Common"/>
-        <Project Caption="我的门户" Key="MyGmePortal"/>
-        <Project Caption="报关管理" Key="CustomsDeclaration"/>
-        <Project Caption="工具管理" Key="Tools"/>
         <Project Caption="配置管理" Key="ConfigSetup"/>
+        <Project Caption="报关管理" Key="CustomsDeclaration"/>
+        <Project Caption="参考示例" Key="Examples"/>
+        <Project Caption="我的门户" Key="MyGmePortal"/>
+        <Project Caption="工具管理" Key="Tools"/>
     </ProjectCollection>
     <InplaceToolbarCollection>
         <InplaceToolbar Description="BPM融合" Handler="com.bokesoft.yes.bpm.BPMInplaceToolBarCallback" Tag="BPM"/>
         <InplaceToolbar Description="提交工作项" Handler="com.bokesoft.yes.bpm.LoadWorkitemInplaceToolBarCallback" Tag="WORKITEM"/>
     </InplaceToolbarCollection>
-    <LangConfig/>
 </Solution>
