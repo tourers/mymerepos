@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DataObject Key="Region" Caption="国家地区" PrimaryTableKey="BK_Region" SecondaryType="Dict" PrimaryType="Entity">
+    <TableCollection>
+        <Table Caption="国家地区 " DBTableName="BK_Region" Key="BK_Region">
+            <Column Caption="对象标识" DataType="Long" Key="OID"/>
+            <Column Caption="父对象标识" DataType="Long" Key="POID"/>
+            <Column Caption="主对象标识" DataType="Long" Key="SOID"/>
+            <Column Caption="对象版本" DataType="Integer" Key="VERID"/>
+            <Column Caption="对象明细版本" DataType="Integer" Key="DVERID"/>
+            <Column Caption="状态" DataType="Integer" Key="Status"/>
+            <Column Caption="创建人" DataType="Long" Key="CREATOR"/>
+            <Column Caption="创建时间" DataType="DateTime" Key="CREATETIME"/>
+            <Column Caption="修改人" DataType="Long" Key="MODIFIER"/>
+            <Column Caption="修改时间" DataType="DateTime" Key="MODIFYTIME"/>
+            <Column Caption="国家" DataType="Long" Key="CountryID"/>
+            <Column Caption="外部代码" DataType="Varchar" Key="UseCode" Length="100"/>
+            <Column Key="English_Name" Caption="英文名称" DataType="Varchar" Length="200"/>
+            <Column Key="Code" Caption="代码" DataType="Varchar" Length="50"/>
+            <Column Key="Name" Caption="名称" DataType="Varchar" Length="100"/>
+            <Column Key="Enable" Caption="启用标记" DataType="Integer"/>
+            <Column Key="ParentID" Caption="父节点" DataType="Long"/>
+            <Column Key="NodeType" Caption="节点类型" DataType="Integer"/>
+            <Column Key="TLeft" Caption="TLeft" DataType="Integer"/>
+            <Column Key="TRight" Caption="TRight" DataType="Integer"/>
+        </Table>
+    </TableCollection>
+</DataObject>
