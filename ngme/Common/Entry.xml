@@ -12,9 +12,10 @@
     </Entry>
     <Entry Caption="配置管理" Key="ConfigSetup">
         <Entry Caption="基础信息" Key="BasicInfo">
-            <EntryItem Caption="人员信息" FormKey="CHCS_Employee" Key="EmployeeInfo" Media="WEB,PC,IOS,ANDROID," Type="Form"/>
-            <EntryItem Caption="部门信息" FormKey="CHCS_Department" Key="Department" Media="WEB,PC,IOS,ANDROID," Type="Form"/>
-            <EntryItem Caption="国家地区" FormKey="V_Country" Key="Country" Media="WEB,PC,IOS,ANDROID," Type="Form"/>
+            <EntryItem Caption="人员信息" FormKey="CHCS_Employee" Key="EmployeeInfo" Type="Form"/>
+            <EntryItem Caption="部门信息" FormKey="CHCS_Department" Key="Department" Type="Form"/>
+            <EntryItem Caption="国家地区" FormKey="V_Country" Key="Country" Type="Form"/>
+            <EntryItem Caption="省份" FormKey="V_Province_LRP" Key="Province" Media="WEB,PC,IOS,ANDROID," Type="Form"/>
         </Entry>
     </Entry>
     <Entry Caption="我的门户" Key="MyPortal" Visible="false"/>
