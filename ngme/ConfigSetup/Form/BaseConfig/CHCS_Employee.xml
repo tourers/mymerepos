@@ -60,13 +60,8 @@
                             <DataBinding TableKey="CHCS_Employee" ColumnKey="Remark"/>
                         </TextEditor>
                         <Label Key="Lab_Remark" Caption="备注" X="5" Y="5"/>
-                        <Dict Key="Post" Caption="职务" BuddyKey="Lab_Post" X="6" Y="3" ItemKey="LRP_Lookup_L" XSpan="3">
+                        <Dict Key="Post" Caption="职务" BuddyKey="Lab_Post" X="6" Y="3" XSpan="3">
                             <DataBinding TableKey="CHCS_Employee" ColumnKey="Post"/>
-                            <ItemFilter>
-                                <Filter Query="select OID from lrp_lookup_l where upper(HeadCode)=upper(?)" Type="DataSet">
-                                    <FilterValue DataType="Varchar" ParaValue="RYZW" Type="Const"/>
-                                </Filter>
-                            </ItemFilter>
                         </Dict>
                         <Label Key="Lab_Post" Caption="职务" X="5" Y="3"/>
                         <RowDefCollection RowGap="8">

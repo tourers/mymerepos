@@ -8,7 +8,7 @@
     </ScriptCollection>
     <Body>
         <Block>
-            <FlexFlowLayoutPanel Key="main" Height="100%">
+            <FlexFlowLayoutPanel Key="main" Height="auto" Width="pref">
                 <TabPanel Caption="TabPanel0" Key="TabPanel0" Height="pref">
                     <GridLayoutPanel Caption="基本信息" Key="BasicTab" Padding="10px">
                         <TextEditor BuddyKey="L_Code" Caption="代码" Enable="!ReadOnly()" Key="Code" Tip="「代码」不可为空" X="1" XSpan="3" Y="0">

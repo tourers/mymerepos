@@ -12,10 +12,14 @@
     </Entry>
     <Entry Caption="配置管理" Key="ConfigSetup">
         <Entry Caption="基础信息" Key="BasicInfo">
-            <EntryItem Caption="人员信息" FormKey="CHCS_Employee" Key="EmployeeInfo" Type="Form"/>
-            <EntryItem Caption="部门信息" FormKey="CHCS_Department" Key="Department" Type="Form"/>
-            <EntryItem Caption="国家地区" FormKey="V_Country" Key="Country" Type="Form"/>
-            <EntryItem Caption="省份" FormKey="V_Province_LRP" Key="Province" Media="WEB,PC,IOS,ANDROID," Type="Form"/>
+            <EntryItem Caption="人员信息" FormKey="DictEdit" Key="EmployeeInfo" Type="Form" Parameters="FormKey=CHCS_Employee"/>
+            <EntryItem Caption="部门信息" FormKey="DictEdit" Key="Department" Type="Form" Parameters="FormKey=CHCS_Department"/>
+            <EntryItem Caption="国家地区" FormKey="DictEdit" Key="Country" Type="Form" Parameters="FormKey=V_Country"/>
+            <EntryItem Caption="区域" FormKey="DictEdit" Key="Region" Type="Form" Parameters="FormKey=V_Region"/>
+            <EntryItem Caption="省份" FormKey="DictEdit" Key="Province" Type="Form" Parameters="FormKey=V_Province_LRP"/>
+            <EntryItem Caption="城市" FormKey="DictEdit" Key="City" Type="Form" Parameters="FormKey=V_City_LRP"/>
+            <EntryItem Caption="枚举值" FormKey="DictEdit" Key="Look_up" Type="Form" Parameters="FormKey=V_Lookup_LRP"/>
+            <EntryItem Caption="机型" FormKey="DictEdit" Key="Fleet" Type="Form" Parameters="FormKey=CHCS_Aircraft_Type"/>
         </Entry>
     </Entry>
     <Entry Caption="我的门户" Key="MyPortal" Visible="false"/>
