@@ -1,6 +1,6 @@
 Common/BPM.xml*5e24232320d61d10c98f568de6ce9a4a
 Common/CommonDef.xml*dae7b5f2abde860562ab63708c4bc2af
-Common/Entry.xml*7fc5f70f11ce2fe5df41892b9313ed87
+Common/Entry.xml*7e679c5f473e8811cc20c2b4eddf3167
 Common/Form/AndroidLogin.xml*bd38dcea13724333cb08a227d7e93099
 Common/Form/AppLogin.xml*74e0ac7a6b75ffd7b8cd2b9692860e7e
 Common/Form/Browser.xml*f3715da907e4a25a4d9f39a36ffe69b0
@@ -70,7 +70,8 @@ CustomsDeclaration/Project.xml*6fca63bc94a22677cb5a9f7cfc701ab1
 CustomsDeclaration/SecurityFilter.xml*c5de35aebbbe69ff82950692b01a6a85
 Examples/BPM.xml*41cd20a28e35fbfb50a1d76d2abf341e
 Examples/CommonDef.xml*696fc9699fe3bd8e5c79eb33fff6957d
-Examples/Entry.xml*a4fd06723a8944b554e8071b4c594aed
+Examples/Entry.xml*3565ee2b3164fc67539c729533265a05
+Examples/Form/Demo_MultiLang_Dic.xml*1a28a2e7cc21d0b86f8fcd80f6dc0f80
 Examples/Project.xml*d07a458f943f4eb21330419de166456a
 Examples/SecurityFilter.xml*c5de35aebbbe69ff82950692b01a6a85
 MyGmePortal/BPM.xml*a8f5bbcee49be5662189c6341bc5bf4c
@@ -78,12 +79,14 @@ MyGmePortal/CommonDef.xml*696fc9699fe3bd8e5c79eb33fff6957d
 MyGmePortal/Entry.xml*a4fd06723a8944b554e8071b4c594aed
 MyGmePortal/Project.xml*edf2f24880a9267107496185c602f247
 MyGmePortal/SecurityFilter.xml*c5de35aebbbe69ff82950692b01a6a85
-Solution.xml*c8c614025892bd263d94c7284c689ee9
+Solution.xml*5aa07132a3b7fedbfd52048299984a77
 Template/CommonTemplate_V13.xml*87b8698e4b86e25bc768837f02497d3d
+Template/DictTemplate_V13.xml*7ef6ef6568072d2512b67b941dd97178
+Template/EntityTemplate_V13.xml*1e3eb45d8f7bc1c8a09f73384cd0c859
 Tools/BPM.xml*ebf6dd4838b99075de8861c7b3b3a6b6
 Tools/CommonDef.xml*696fc9699fe3bd8e5c79eb33fff6957d
 Tools/Entry.xml*a4fd06723a8944b554e8071b4c594aed
 Tools/Form/ToolsRequest.xml*e9b2911157e0abf27dffd7d00f644ef5
 Tools/Project.xml*9086399524d84cb86872bc66715abb74
 Tools/SecurityFilter.xml*c5de35aebbbe69ff82950692b01a6a85
-setting.xml*fec23900f40a7646f794c4e02cba1ead
+setting.xml*00ee0e0f6503ae61558b52d416683dea

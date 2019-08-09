@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Solution Caption="Test" Key="ngme">
+<Solution Caption="Test" Key="ngme" EnableMultiLang="true">
     <ProjectCollection>
         <Project Caption="公共配置" Key="Common"/>
         <Project Caption="配置管理" Key="ConfigSetup"/>
@@ -12,4 +12,8 @@
         <InplaceToolbar Description="BPM融合" Handler="com.bokesoft.yes.bpm.BPMInplaceToolBarCallback" Tag="BPM"/>
         <InplaceToolbar Description="提交工作项" Handler="com.bokesoft.yes.bpm.LoadWorkitemInplaceToolBarCallback" Tag="WORKITEM"/>
     </InplaceToolbarCollection>
+    <LangConfig>
+        <Lang Description="中文" Key="zh-CN" Suffix="zh"/>
+        <Lang Description="English" Key="en-US" Suffix="en"/>
+    </LangConfig>
 </Solution>

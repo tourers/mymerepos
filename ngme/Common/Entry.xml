@@ -25,4 +25,7 @@
     <Entry Caption="我的门户" Key="MyPortal" Visible="false"/>
     <Entry Caption="报关管理" Key="CustomsDeclaration" Visible="false"/>
     <Entry Caption="工具管理" Key="Tools" Visible="false"/>
+    <Entry Caption="参考示例" Key="DevDemo">
+        <EntryItem Caption="多语言测试" FormKey="MultiLanguage" Key="MultiLanguage" Media="WEB,PC,IOS,ANDROID," Type="Form"/>
+    </Entry>
 </Entry>
