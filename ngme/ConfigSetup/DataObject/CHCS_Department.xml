@@ -10,7 +10,7 @@
             <Column Key="Code" Caption="代码" DataType="Varchar" Length="50"/>
             <Column Key="Name" Caption="名称" DataType="Varchar" Length="100"/>
             <Column Key="Status" Caption="状态" DataType="Integer"/>
-            <Column Key="Enable" Caption="启用标记" DataType="Integer"/>
+            <Column Key="Enable" Caption="启用标记" DataType="Integer" DefaultValue="1"/>
             <Column Key="ParentID" Caption="父节点" DataType="Long"/>
             <Column Key="NodeType" Caption="节点类型" DataType="Integer"/>
             <Column Key="TLeft" Caption="TLeft" DataType="Integer"/>

@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Entry Caption="根" Key="root">
-    <Entry Caption="参考示例自定义表单" Icon="Bill.png" Key="ExamplesCustomBill">
-        <EntryItem Caption="多语言字典" FormKey="DictEdit" Key="Demo_MultiLang_Dic" Media="WEB,PC,IOS,ANDROID," Parameters="FormKey=Demo_MultiLang_Dic" Type="Form"/>
-    </Entry>
-</Entry>
+<Entry Caption="根" Key="root"/>

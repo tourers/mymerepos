@@ -12,6 +12,7 @@
     </Entry>
     <Entry Caption="配置管理" Key="ConfigSetup">
         <Entry Caption="基础信息" Key="BasicInfo">
+            <EntryItem Caption="公司信息" FormKey="DictEdit" Key="NewItem" Type="Form" Media="WEB,PC,IOS,ANDROID," Parameters="FormKey=V_CompanyCode"/>
             <EntryItem Caption="人员信息" FormKey="CHCS_Employee_Edit" Key="EmployeeInfo" Type="Form" Parameters="FormKey=CHCS_Employee"/>
             <EntryItem Caption="部门信息" FormKey="DictEdit" Key="Department" Type="Form" Parameters="FormKey=CHCS_Department"/>
             <EntryItem Caption="国家地区" FormKey="DictEdit" Key="Country" Type="Form" Parameters="FormKey=V_Country"/>
@@ -26,6 +27,6 @@
     <Entry Caption="报关管理" Key="CustomsDeclaration" Visible="false"/>
     <Entry Caption="工具管理" Key="Tools" Visible="false"/>
     <Entry Caption="参考示例" Key="DevDemo">
-        <EntryItem Caption="多语言测试" FormKey="MultiLanguage" Key="MultiLanguage" Media="WEB,PC,IOS,ANDROID," Type="Form"/>
+        <EntryItem Caption="多语言测试" FormKey="MultiLanguage" Key="MultiLanguage" Type="Form"/>
     </Entry>
 </Entry>
