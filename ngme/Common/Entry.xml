@@ -12,7 +12,7 @@
     </Entry>
     <Entry Caption="配置管理" Key="ConfigSetup">
         <Entry Caption="基础信息" Key="BasicInfo">
-            <EntryItem Caption="人员信息" FormKey="DictEdit" Key="EmployeeInfo" Type="Form" Parameters="FormKey=CHCS_Employee"/>
+            <EntryItem Caption="人员信息" FormKey="CHCS_Employee_Edit" Key="EmployeeInfo" Type="Form" Parameters="FormKey=CHCS_Employee"/>
             <EntryItem Caption="部门信息" FormKey="DictEdit" Key="Department" Type="Form" Parameters="FormKey=CHCS_Department"/>
             <EntryItem Caption="国家地区" FormKey="DictEdit" Key="Country" Type="Form" Parameters="FormKey=V_Country"/>
             <EntryItem Caption="区域" FormKey="DictEdit" Key="Region" Type="Form" Parameters="FormKey=V_Region"/>
