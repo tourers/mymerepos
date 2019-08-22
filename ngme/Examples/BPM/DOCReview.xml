@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Process Caption="资料审核" Key="DOCReview">
+    <SwimlineCollection/>
+    <BPMInfoCollection/>
+    <DMTable/>
+    <PermCollection/>
+    <AttachmentCollection/>
+</Process>
