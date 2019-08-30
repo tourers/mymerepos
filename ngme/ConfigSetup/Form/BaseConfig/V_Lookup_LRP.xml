@@ -20,7 +20,7 @@
                 <SplitPanel Height="100%" Key="main_split" Orientation="Vertical">
                     <TabPanel Caption="TabPanel0" Key="TabPanel0">
                         <GridLayoutPanel Caption="基本信息" Key="BasicTab" Padding="10px">
-                            <TextEditor Caption="代码" Enable="!ReadOnly()" Key="Code" Tip="「代码」不可为空" X="1" XSpan="3" Y="0">
+                            <TextEditor Caption="代码" Enable="!ReadOnly()" Key="Code" Tip="「代码」不可为空" X="1" XSpan="3" Y="0" Case="Upper">
                                 <DataBinding ColumnKey="Code" TableKey="LRP_Lookup_H" Required="true"/>
                             </TextEditor>
                             <TextEditor Caption="名称" Enable="!ReadOnly()" Key="Name" Tip="「名称」不可为空" X="6" XSpan="3" Y="0">
