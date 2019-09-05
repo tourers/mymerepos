@@ -7,6 +7,7 @@
         <Project Caption="参考示例" Key="Examples"/>
         <Project Caption="我的门户" Key="MyGmePortal"/>
         <Project Caption="工具管理" Key="Tools"/>
+        <Project Caption="运行性能管理" Key="OPS_Performance"/>
     </ProjectCollection>
     <InplaceToolbarCollection>
         <InplaceToolbar Description="BPM融合" Handler="com.bokesoft.yes.bpm.BPMInplaceToolBarCallback" Tag="BPM"/>
